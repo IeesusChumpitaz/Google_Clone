@@ -34,6 +34,7 @@ header{
     height: 24px;
 }
 .menu-list-containerBottom{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,10 +57,14 @@ header{
 
 }
 .menu-icon{
-    width: 20px;
-    height: 20px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 12px;
 }
 .user-icon{
+    position: absolute;
+    top: 2px;
     width: 35px;
     height: 35px;
     border-radius: 50%;
