@@ -8,7 +8,7 @@ main{
 }
 .logo-container{
     width: 440px;
-    height: 270px;
+    height: 235px;
     margin-top: 50px;
 }
 .logo{
@@ -20,8 +20,55 @@ main{
     background-position: center;
 }
 .input-search-container{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 485px;
+    height: 37px;
+    margin: 0 auto;
+    z-index: 3;
+    padding: 5px 8px 0 16px;
+}
+.icon-search{
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+    background-image: url(../assets/icons/Search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container-input-voice-search{
+    display: flex;
+    align-items: center;
     width: 450px;
-    height: auto;
-    border-radius: 10px;
-    border: solid grey;
+    height: 35px;
+}
+.input-search{
+    display: flex;
+    flex: 100%;
+    width: 440px;
+    height: 34px;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    -webkit-tap-highlight-color:transparent;
+    outline: none;
+    font-size: 1.6rem;
+}
+.button-voice{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    background-image: url(../assets/icons/voice-icon.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
